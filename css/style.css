@@ -163,8 +163,6 @@ header {
   left: 0; }
 
 .showcase .img2 {
-  width: 100%;
-  height: 100%;
   position: relative;
   left: 0;
   top: 0; }
@@ -180,18 +178,25 @@ header {
 .showcase .font-dots i {
   position: absolute;
   right: 50%;
-  bottom: 12%;
+  top: 55%;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 25px;
   transition: all .3s;
   color: var(--subColor);
+  width: 40px;
+  height: 40px;
+  background-color: rgba(165, 150, 150, 0.5);
   border: 2px solid #fff;
-  border-radius: 50%; }
-  .showcase .font-dots i:first-child {
-    margin: 0 30px; }
+  line-height: 40px;
+  text-align: center; }
   .showcase .font-dots i:hover {
-    color: #fff;
-    border: 2px solid #333; }
+    color: #fff; }
+
+.showcase .font-dots .fas1 {
+  left: 8%; }
+
+.showcase .font-dots .fas2 {
+  right: 8%; }
 
 /* Category-Section */
 .section-padding {
