@@ -194,7 +194,7 @@ header {
         }
         .img2 {
             width: 100%;
-            height: 480px;
+            height: 100%;
             position: relative;
             left: 0;
             top: 0;
@@ -602,7 +602,6 @@ footer {
     color: #fff;
     
     @include sm {
-        // text-align: center;
         flex-direction: column;
         justify-content: center;
         align-items: center;
